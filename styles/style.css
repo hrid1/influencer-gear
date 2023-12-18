@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color:hsl(270, 5%, 91%);
+}
+
 .header-section{
     display: flex;
     justify-content: space-between;
@@ -53,4 +57,146 @@
     font-size: 16px;
     font-weight: 700px;
 
+}
+
+/* Market place */
+.all-market{
+    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 41px;
+
+}
+.market-place-section{
+    margin: 70px 120px 100px 120px;
+}
+/* gadget collection */
+
+.gadget-section h1{
+    text-align: center;
+    margin: 0px 196px 0px 196px;
+}
+
+.all-gadget{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 30px; */
+    /* margin-left: 196px; */
+    /* border: 3px solid black; */
+    margin: 0px 196px 0px 196px;
+
+
+   
+}
+
+.gadget-details{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.all-gadget .inner-div{
+    margin: 17px 15px 17px 15px ;
+}
+
+.gadget-details .name{
+    font-size: 28px;
+    font-weight: 500px;
+}
+
+.gadget-details .price{
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.review{
+    margin: 10px 10px 10px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.review .rate{
+    color: #FB8200;
+}
+
+.review p, .details{
+    color: #5E6366;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+/* see more link*/
+.see-more {
+    margin: 50px 220px 50px 196px;
+    text-align: right;
+
+}
+.see-more a, .see-more i{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E02C6D;
+    margin-left: 8px;
+}
+
+/* blog-section */
+
+.blog-section{
+    background-color: blanchedalmond;
+    margin: 100px 165px 100px 165px;
+    display: flex;
+    gap: 96px;
+}
+
+.blog-img{
+
+}
+
+.blog-info h1{
+    margin: 20px 0px 16px 0px;
+
+}
+.blog-info p{
+    width: 501px;
+    height: 88px;
+}
+
+.join-btn{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+/* Footer Section */
+
+.footer-section{
+    background-color:#0A0826;
+    height: 239px;
+    color: rgb(255, 249, 249);
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.footer-section p{
+    margin-top: 3px;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.social-icon {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
 }
